@@ -19,7 +19,13 @@
 				"command": "canvas-dojo.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/canvas-snippet.json"
+      }
+    ]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
