@@ -1,17 +1,19 @@
-let fs = require('fs');
+let fs = require("fs");
 
 try {
-  let code = fs.readFileSync('in.txt', 'utf8');
+  let code = fs.readFileSync("in.txt", "utf8");
   // console.log(code);
 
-  let codelines = code.split("\n").map(codeline => {
-    return "\"" + codeline.replace("\r","") + "\""
-  }).join(",\n");
+  let codelines = code
+    .split("\n")
+    .map((codeline) => {
+      return '"' + codeline.replace("\r", "") + '"';
+    })
+    .join(",\n");
 
-  console.log(codelines)
+  console.log(codelines);
 
-  fs.writeFileSync('out.txt', codelines)
-
+  fs.writeFileSync("out.txt", codelines);
 } catch (e) {
-  console.error('Error: ', e.stack);
+  console.error("Error: ", e.stack);
 }
