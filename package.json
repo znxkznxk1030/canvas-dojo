@@ -10,14 +10,29 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:canvas-dojo.helloWorld"
+        "onCommand:canvas-dojo.start",
+        "onCommand:canvas-dojo.doRefactor",
+        "onView:canvas-dojo.canvasView"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+    "views": {
+			"explorer": [
+				{
+					"type": "webview",
+					"id": "canvas-dojo.canvasView",
+					"name": "Canvas Preview"
+				}
+			]
+		},
 		"commands": [
 			{
-				"command": "canvas-dojo.helloWorld",
-				"title": "Hello World"
+				"command": "canvas-dojo.start",
+				"title": "Canvas Preview"
+			},
+      {
+				"command": "canvas-dojo.doRefactor",
+				"title": "Canvas Preview Update"
 			}
 		],
     "snippets": [
