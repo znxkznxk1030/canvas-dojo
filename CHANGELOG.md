@@ -9,3 +9,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Snippets | cavas:default
 - Support Webview using current active editor
+
+### 0.0.2
+
+- Add a logo
+
+<img src="./canvas-dojo-logo.png" height="100px" width="100px">
