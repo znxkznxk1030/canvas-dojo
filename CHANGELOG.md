@@ -15,3 +15,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Add a logo
 
 <img src="./canvas-dojo-logo.png" height="100px" width="100px">
+
+### 0.0.3
+
+- Change displayName (canvas dojo => Canvas Dojo)
