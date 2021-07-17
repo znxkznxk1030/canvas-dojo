@@ -4,6 +4,8 @@ All notable changes to the "canvas-dojo" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
+### 0.0.1
 
-- Initial release
+- Snippets | cavas:default
+- Support Webview using current active editor

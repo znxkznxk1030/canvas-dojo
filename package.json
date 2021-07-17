@@ -1,8 +1,13 @@
 {
   "name": "canvas-dojo",
+  "publisher": "ArthurKim",
   "displayName": "canvas dojo",
   "description": "snippets and plugins for html5 canvas development",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/znxkznxk1030/canvas-dojo"
+  },
   "engines": {
     "vscode": "^1.58.0"
   },
