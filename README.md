@@ -5,18 +5,18 @@
 ## Features
 
 * No need html or style files to run canvas
-* Supports various canvas boiler templates via snippet
+* Provides canvas boilerplates of good practice ( by Christopher Lis )
 * Supports webview that directly executes the written js code
 
 ## How to use
-### Snippet
+### Create a boilerplate through snippet
 1. create a **javascript** file.
 2. As you type on " *canvas* ", a list of snippets will appear automatically.
 3. Select "canvas:default"
  
 ![Demo | Snippet](./demo/demo-snippet-01.gif)
 
-### Open Preview 
+### Open a preview 
 1. Hit <kbd>⌘ Command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd>
 2. Run `Canvas Preveiw`
 
@@ -28,3 +28,17 @@
 
 - Snippets | cavas:default
 - Support Webview using current active editor
+
+### 0.0.2
+
+- Add a logo
+
+<img src="./canvas-dojo-logo.png" height="100px" width="100px">
+
+### 0.0.3
+
+- Change displayName (canvas dojo => Canvas Dojo)
+
+### 0.0.4
+
+- Add info annotation for boiler plate

@@ -108,3 +108,7 @@ package-lock.json
 
 # out
 out/
+
+# Boilerplate generator
+boilerplate/in.js
+boilerplate/out.js

@@ -1,10 +1,11 @@
 let fs = require("fs");
 
 try {
-  let code = fs.readFileSync("in.txt", "utf8");
+  let code = fs.readFileSync("in.js", "utf8");
   // console.log(code);
 
   let codelines = code
+    .replace(/"/g, "\\\"")
     .split("\n")
     .map((codeline) => {
       return '"' + codeline.replace("\r", "") + '"';
@@ -13,7 +14,7 @@ try {
 
   console.log(codelines);
 
-  fs.writeFileSync("out.txt", codelines);
+  fs.writeFileSync("out.js", codelines);
 } catch (e) {
   console.error("Error: ", e.stack);
 }

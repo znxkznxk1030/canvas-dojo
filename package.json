@@ -4,16 +4,21 @@
   "displayName": "Canvas Dojo",
   "description": "snippets and plugins for html5 canvas development",
   "icon": "canvas-dojo-logo.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/znxkznxk1030/canvas-dojo"
+  },
+  "bugs": {
+    "url": "https://github.com/znxkznxk1030/canvas-dojo/issues"
   },
   "engines": {
     "vscode": "^1.58.0"
   },
   "categories": [
-    "Other"
+    "canvas",
+    "Snippets",
+    "webview"
   ],
   "activationEvents": [
     "onCommand:canvas-dojo.start",
