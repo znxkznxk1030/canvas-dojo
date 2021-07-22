@@ -108,7 +108,6 @@ class CanvasPanel {
     if (editor) {
       const document = editor.document;
       scriptCode = document.getText();
-      console.log(scriptCode);
     }
 
     // Do the same for the stylesheet.
