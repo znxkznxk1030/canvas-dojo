@@ -1,7 +1,7 @@
 let fs = require("fs");
 
 try {
-  let code = fs.readFileSync("in.js", "utf8");
+  let code = fs.readFileSync("gravity.js", "utf8");
   // console.log(code);
 
   let codelines = code
