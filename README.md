@@ -42,3 +42,8 @@
 ### 0.0.4
 
 - Add info annotation for boiler plate
+
+### 0.0.5
+
+- Remove console.log when the preview opens
+- Add "canvas:gravity"

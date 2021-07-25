@@ -4,7 +4,7 @@
   "displayName": "Canvas Dojo",
   "description": "snippets and plugins for html5 canvas development",
   "icon": "canvas-dojo-logo.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/znxkznxk1030/canvas-dojo"
