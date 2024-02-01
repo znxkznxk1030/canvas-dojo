@@ -85,7 +85,7 @@
       " *  utils.js - <https://github.com/christopher4lis/canvas-boilerplate/blob/master/src/js/utils.js>",
       " *  @function randomIntFromRange Picks a random integer within a range",
       " *  @function randomColor Picks a random color",
-      " *  @function dispatch Find the distance between two points",
+      " *  @function distance Find the distance between two points",
       " **/ ",
       "",
       "function randomIntFromRange(min, max) {",
